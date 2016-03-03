@@ -1,0 +1,604 @@
+[
+    {
+        "outputFile": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/values-ru/values-ru.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 114,
+                    "endOffset": 165
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 170,
+                    "endColumn": 107,
+                    "endOffset": 273
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 278,
+                    "endColumn": 122,
+                    "endOffset": 396
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 401,
+                    "endColumn": 101,
+                    "endOffset": 498
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 503,
+                    "endColumn": 111,
+                    "endOffset": 610
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 615,
+                    "endColumn": 85,
+                    "endOffset": 696
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 701,
+                    "endColumn": 104,
+                    "endOffset": 801
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 806,
+                    "endColumn": 119,
+                    "endOffset": 921
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 926,
+                    "endColumn": 78,
+                    "endOffset": 1000
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1005,
+                    "endColumn": 77,
+                    "endOffset": 1078
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1083,
+                    "endColumn": 79,
+                    "endOffset": 1158
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1163,
+                    "endColumn": 105,
+                    "endOffset": 1264
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1269,
+                    "endColumn": 107,
+                    "endOffset": 1372
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1377,
+                    "endColumn": 97,
+                    "endOffset": 1470
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1475,
+                    "endColumn": 108,
+                    "endOffset": 1579
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1584,
+                    "endColumn": 105,
+                    "endOffset": 1685
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1690,
+                    "endColumn": 107,
+                    "endOffset": 1793
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1798,
+                    "endColumn": 135,
+                    "endOffset": 1929
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1934,
+                    "endColumn": 99,
+                    "endOffset": 2029
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2034,
+                    "endColumn": 52,
+                    "endOffset": 2082
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2087,
+                    "endColumn": 52,
+                    "endOffset": 2135
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1416,
+                        "endColumn": 52,
+                        "endOffset": 1464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2140,
+                    "endColumn": 52,
+                    "endOffset": 2188
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2193,
+                    "endColumn": 64,
+                    "endOffset": 2253
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2258,
+                    "endColumn": 42,
+                    "endOffset": 2296
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2301,
+                    "endColumn": 59,
+                    "endOffset": 2356
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2361,
+                    "endColumn": 65,
+                    "endOffset": 2422
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1469,
+                        "endColumn": 65,
+                        "endOffset": 1530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2427,
+                    "endColumn": 62,
+                    "endOffset": 2485
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1535,
+                        "endColumn": 62,
+                        "endOffset": 1593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2490,
+                    "endColumn": 43,
+                    "endOffset": 2529
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2534,
+                    "endColumn": 47,
+                    "endOffset": 2577
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2582,
+                    "endColumn": 75,
+                    "endOffset": 2653
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2658,
+                    "endColumn": 73,
+                    "endOffset": 2727
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2732,
+                    "endColumn": 49,
+                    "endOffset": 2777
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2782,
+                    "endColumn": 47,
+                    "endOffset": 2825
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2830,
+                    "endColumn": 66,
+                    "endOffset": 2892
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2897,
+                    "endColumn": 64,
+                    "endOffset": 2957
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2962,
+                    "endColumn": 57,
+                    "endOffset": 3015
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3020,
+                    "endColumn": 100,
+                    "endOffset": 3116
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-ru/values-ru.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3121,
+                    "endColumn": 56,
+                    "endOffset": 3173
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3178,
+                    "endColumn": 45,
+                    "endOffset": 3219
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3224,
+                    "endColumn": 56,
+                    "endOffset": 3276
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3281,
+                    "endColumn": 54,
+                    "endOffset": 3331
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3336,
+                    "endColumn": 46,
+                    "endOffset": 3378
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3383,
+                    "endColumn": 50,
+                    "endOffset": 3429
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3434,
+                    "endColumn": 52,
+                    "endOffset": 3482
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3487,
+                    "endColumn": 72,
+                    "endOffset": 3555
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3560,
+                    "endColumn": 41,
+                    "endOffset": 3597
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3602,
+                    "endColumn": 61,
+                    "endOffset": 3659
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3664,
+                    "endColumn": 66,
+                    "endOffset": 3726
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            }
+        ]
+    }
+]

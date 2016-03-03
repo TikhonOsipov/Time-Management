@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+    
+                                          
+           
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_eisenhower_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginBottom="@dimen/layout_main_margin_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.tixon.timemanagement.custom_views.VerticalTextView
+                        android:text=""
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="@string/urgent"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:text="@string/notUrgent"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <com.tixon.timemanagement.custom_views.VerticalTextView
+                            android:text="@string/important"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <FrameLayout
+                            android:layout_margin="4dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_container_red"
+                            android:layout_height="match_parent"
+                            android:id="@+id/urgentAndImportant" />
+
+                        <FrameLayout
+                            android:layout_margin="4dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_container_amber900"
+                            android:layout_height="match_parent"
+                            android:id="@+id/notUrgentAndImportant" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <com.tixon.timemanagement.custom_views.VerticalTextView
+                            android:text="@string/notImportant"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <FrameLayout
+                            android:layout_margin="4dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_container_orange"
+                            android:layout_height="match_parent"
+                            android:id="@+id/urgentAndNotImportant" />
+
+                        <FrameLayout
+                            android:layout_margin="4dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_container_green"
+                            android:layout_height="match_parent"
+                            android:id="@+id/notUrgentAndNotImportant" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_add_white_36dp" />
+
+    </android.support.design.widget.CoordinatorLayout>
+         
