@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time management</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- ContentMain -->
+    <string name="important">Важно</string>
+    <string name="notImportant">Не важно</string>
+    <string name="urgent">Срочно</string>
+    <string name="notUrgent">Не срочно</string>
+
+    <!-- Create task activity -->
+    <string name="createTaskActivityTitle">Новая задача</string>
+    <string name="taskTitleHint">Название</string>
+    <string name="taskDescriptionHint">Описание</string>
+    <string name="taskIsImportantText">Важное</string>
+    <string name="taskDateHint">Дата</string>
+    <string name="taskTimeHint">Время</string>
+    <string name="taskCreateButtonText">Создать</string>
+
+    <!-- Task description activity -->
+    <string name="taskDescriptionActivityTitle">Подробный просмотр</string>
+
+    <string name="dateFormat">%1$02d.%2$02d.%3$04d</string>
+    <string name="timeFormat">%1$02d:%2$02d</string>
+    <string name="dateAtTime"> в </string>
+
+    <string name="urgentAndImportant">Важно и срочно</string>
+    <string name="urgentAndNotImportant">Срочно, не важно</string>
+    <string name="notUrgentAndImportant">Важно, не срочно</string>
+    <string name="notUrgentAndNotImportant">Долгий ящик</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+
+    <string name="selected_number">Выбрано: %1$s</string>
+    <string name="menu_delete">Удалить</string>
+
+    <!-- Navigation drawer -->
+    <string name="app_menu">Меню приложения</string>
+    <string name="eisenhower_matrix">Матрица Эйзенхауэра</string>
+    <string name="full_task_list">Полный список задач</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

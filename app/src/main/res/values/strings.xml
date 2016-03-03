@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time management</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- ContentMain -->
+    <string name="important">Important</string>
+    <string name="notImportant">Not important</string>
+    <string name="urgent">Urgent</string>
+    <string name="notUrgent">Not urgent</string>
+
+    <!-- Create task activity -->
+    <string name="createTaskActivityTitle">New task</string>
+    <string name="taskTitleHint">Title</string>
+    <string name="taskDescriptionHint">Description</string>
+    <string name="taskIsImportantText">Important</string>
+    <string name="taskDateHint">Date</string>
+    <string name="taskTimeHint">Time</string>
+    <string name="taskCreateButtonText">Create</string>
+
+    <!-- Task description activity -->
+    <string name="taskDescriptionActivityTitle">Task description</string>
+
+    <string name="dateFormat">%1$02d.%2$02d.%3$04d</string>
+    <string name="timeFormat">%1$02d:%2$02d</string>
+    <string name="dateAtTime"> at </string>
+
+    <string name="urgentAndImportant">Important and urgent</string>
+    <string name="urgentAndNotImportant">Urgent, not important</string>
+    <string name="notUrgentAndImportant">Important, not urgent</string>
+    <string name="notUrgentAndNotImportant">Shelved</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+
+    <string name="selected_number">Selected: %1$s</string>
+    <string name="menu_delete">Delete</string>
+
+    <!-- Navigation drawer -->
+    <string name="app_menu">Application menu</string>
+    <string name="eisenhower_matrix">Eisenhower matrix</string>
+    <string name="full_task_list">All tasks list</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
