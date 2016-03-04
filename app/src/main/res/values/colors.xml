@@ -15,4 +15,7 @@
     <color name="black">#000000</color>
     <color name="blackText">#BE000000</color>
     <color name="red800">#c62828</color>
+
+    <color name="colorRipple">#5fa9a9f5</color>
+    <color name="colorTextLight">#e8eaf6</color>
 </resources>

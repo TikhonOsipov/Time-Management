@@ -17,6 +17,7 @@
     <string name="taskDateHint">Date</string>
     <string name="taskTimeHint">Time</string>
     <string name="taskCreateButtonText">Create</string>
+    <string name="titleEmptyError">Enter title</string>
 
     <!-- Task description activity -->
     <string name="taskDescriptionActivityTitle">Task description</string>

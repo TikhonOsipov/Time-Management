@@ -479,14 +479,7 @@
                     "endOffset": 3295
                 },
                 "from": {
-                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 824,
-                        "endColumn": 75,
-                        "endOffset": 895
-                    }
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
                 }
             },
             {
@@ -554,20 +547,27 @@
                     "startLine": 47,
                     "startColumn": 4,
                     "startOffset": 3563,
-                    "endColumn": 72,
-                    "endOffset": 3631
+                    "endColumn": 60,
+                    "endOffset": 3619
                 },
                 "from": {
-                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 784,
+                        "endColumn": 60,
+                        "endOffset": 840
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 3636,
-                    "endColumn": 41,
-                    "endOffset": 3673
+                    "startOffset": 3624,
+                    "endColumn": 72,
+                    "endOffset": 3692
                 },
                 "from": {
                     "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
@@ -577,9 +577,9 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 3678,
-                    "endColumn": 61,
-                    "endOffset": 3735
+                    "startOffset": 3697,
+                    "endColumn": 41,
+                    "endOffset": 3734
                 },
                 "from": {
                     "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
@@ -589,9 +589,21 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 3740,
+                    "startOffset": 3739,
+                    "endColumn": 61,
+                    "endOffset": 3796
+                },
+                "from": {
+                    "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3801,
                     "endColumn": 66,
-                    "endOffset": 3802
+                    "endOffset": 3863
                 },
                 "from": {
                     "file": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/values-ru/strings.xml"

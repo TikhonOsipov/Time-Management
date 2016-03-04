@@ -116,7 +116,7 @@ public class CreateTaskActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 if(binding.editTextTitle.getText().toString().isEmpty()) {
-                    binding.editTextTitle.setError("Введите название");
+                    binding.editTextTitle.setError(getString(R.string.titleEmptyError));
                     binding.editTextTitle.requestFocus();
                     /*try {
                         binding.editTextTitle.getBackground().mutate()
@@ -130,8 +130,10 @@ public class CreateTaskActivity extends AppCompatActivity {
                     Task task = new Task();
 
                     task.setImportant(binding.checkBoxIsImportantTask.isChecked());
-                    task.setDate(binding.editTextDate.getText().toString());
-                    task.setTime(binding.editTextTime.getText().toString());
+                    //task.setDate(binding.editTextDate.getText().toString());
+                    //task.setTime(binding.editTextTime.getText().toString());
+                    task.setDateAndTime(binding.editTextDate.getText().toString(),
+                            binding.editTextTime.getText().toString());
                     task.setTitle(binding.editTextTitle.getText().toString());
                     task.setDescription(binding.editTextDescription.getText().toString());
 

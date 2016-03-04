@@ -8,6 +8,10 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_fade_out.xml"
     },
     {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/debug/anim/rotate_fab.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/anim/rotate_fab.xml"
+    },
+    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/debug/anim/white_background_show_alpha.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/anim/white_background_show_alpha.xml"
     },

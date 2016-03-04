@@ -45,6 +45,7 @@
     <string name="taskTimeHint">Время</string>
     <string name="taskTitleHint">Название</string>
     <string name="timeFormat">%1$02d:%2$02d</string>
+    <string name="titleEmptyError">Введите название</string>
     <string name="title_activity_navigation">NavigationActivity</string>
     <string name="urgent">Срочно</string>
     <string name="urgentAndImportant">Важно и срочно</string>

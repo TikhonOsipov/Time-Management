@@ -9,13 +9,19 @@ public class ActivityTaskDescriptionBinding extends android.databinding.ViewData
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.toolbarTaskDescription, 3);
-        sViewsWithIds.put(R.id.fabDescription, 4);
+        sViewsWithIds.put(R.id.toolbarTaskDescription, 5);
+        sViewsWithIds.put(R.id.taskDescriptionLayout, 6);
+        sViewsWithIds.put(R.id.taskDescriptionDateTimeLayout, 7);
+        sViewsWithIds.put(R.id.fabDescription, 8);
     }
     // views
     public final android.support.design.widget.FloatingActionButton fabDescription;
     private final android.support.design.widget.CoordinatorLayout mboundView0;
+    public final android.widget.LinearLayout taskDescriptionDateTimeLayout;
+    public final android.widget.LinearLayout taskDescriptionLayout;
+    public final android.widget.EditText tdDate;
     public final android.widget.EditText tdDescription;
+    public final android.widget.EditText tdTime;
     public final android.widget.EditText tdTitle;
     public final android.support.v7.widget.Toolbar toolbarTaskDescription;
     // variables
@@ -25,15 +31,21 @@ public class ActivityTaskDescriptionBinding extends android.databinding.ViewData
     
     public ActivityTaskDescriptionBinding(android.databinding.DataBindingComponent bindingComponent, View root) {
         super(bindingComponent, root, 0);
-        final Object[] bindings = mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds);
-        this.fabDescription = (android.support.design.widget.FloatingActionButton) bindings[4];
+        final Object[] bindings = mapBindings(bindingComponent, root, 9, sIncludes, sViewsWithIds);
+        this.fabDescription = (android.support.design.widget.FloatingActionButton) bindings[8];
         this.mboundView0 = (android.support.design.widget.CoordinatorLayout) bindings[0];
         this.mboundView0.setTag(null);
+        this.taskDescriptionDateTimeLayout = (android.widget.LinearLayout) bindings[7];
+        this.taskDescriptionLayout = (android.widget.LinearLayout) bindings[6];
+        this.tdDate = (android.widget.EditText) bindings[3];
+        this.tdDate.setTag(null);
         this.tdDescription = (android.widget.EditText) bindings[2];
         this.tdDescription.setTag(null);
+        this.tdTime = (android.widget.EditText) bindings[4];
+        this.tdTime.setTag(null);
         this.tdTitle = (android.widget.EditText) bindings[1];
         this.tdTitle.setTag(null);
-        this.toolbarTaskDescription = (android.support.v7.widget.Toolbar) bindings[3];
+        this.toolbarTaskDescription = (android.support.v7.widget.Toolbar) bindings[5];
         setRootTag(root);
         invalidateAll();
     }
@@ -90,6 +102,8 @@ public class ActivityTaskDescriptionBinding extends android.databinding.ViewData
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
+        java.lang.String timeTask = null;
+        java.lang.String dateTask = null;
         java.lang.String descriptionTask = null;
         java.lang.String titleTask = null;
         com.tixon.timemanagement.task.Task task = mTask;
@@ -99,6 +113,10 @@ public class ActivityTaskDescriptionBinding extends android.databinding.ViewData
             task = task;
         
             if (task != null) {
+                // read time~.~task~
+                timeTask = task.getTime();
+                // read date~.~task~
+                dateTask = task.getDate();
                 // read description~.~task~
                 descriptionTask = task.getDescription();
                 // read title~.~task~
@@ -108,7 +126,9 @@ public class ActivityTaskDescriptionBinding extends android.databinding.ViewData
         // batch finished
         if ((dirtyFlags & 0x3L) != 0) {
             // api target 1
+            this.tdDate.setText(dateTask);
             this.tdDescription.setText(descriptionTask);
+            this.tdTime.setText(timeTask);
             this.tdTitle.setText(titleTask);
         }
     }

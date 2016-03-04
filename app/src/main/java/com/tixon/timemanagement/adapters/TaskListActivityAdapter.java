@@ -51,6 +51,9 @@ public class TaskListActivityAdapter extends
         this.important = important;
         try {
             taskList.addAll(taskDAO.getTasksByUrgenceAndImportance(urgent, important));
+            if(taskList.isEmpty()) {
+                activity.finish();
+            }
         } catch (SQLException e) {
             Log.e("myLogs", "error getting urgent and important tasks in taskListActivityAdapter: " + e.toString());
             e.printStackTrace();

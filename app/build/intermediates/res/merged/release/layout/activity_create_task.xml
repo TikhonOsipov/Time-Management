@@ -120,8 +120,12 @@
                     <Button
                         android:id="@+id/buttonCreateTask"
                         android:text="@string/taskCreateButtonText"
+                        android:layout_margin="8dp"
+                        android:textColor="@color/colorTextLight"
+                        app:elevation="4dp"
+                        android:background="@drawable/button_background_ripple"
                         android:layout_width="match_parent"
-                        android:layout_height="54dp" />
+                        android:layout_height="@dimen/button_create_height" />
                 </LinearLayout>
             </ScrollView>
         </LinearLayout>

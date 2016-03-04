@@ -17,6 +17,7 @@
     <string name="taskDateHint">Дата</string>
     <string name="taskTimeHint">Время</string>
     <string name="taskCreateButtonText">Создать</string>
+    <string name="titleEmptyError">Введите название</string>
 
     <!-- Task description activity -->
     <string name="taskDescriptionActivityTitle">Подробный просмотр</string>

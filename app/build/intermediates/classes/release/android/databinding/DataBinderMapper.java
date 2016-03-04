@@ -15,6 +15,8 @@ class DataBinderMapper {
                 return com.tixon.timemanagement.databinding.TaskItemBinding.bind(view, bindingComponent);
             case com.tixon.timemanagement.R.layout.task_list_item:
                 return com.tixon.timemanagement.databinding.TaskListItemBinding.bind(view, bindingComponent);
+            case com.tixon.timemanagement.R.layout.activity_task_description:
+                return com.tixon.timemanagement.databinding.ActivityTaskDescriptionBinding.bind(view, bindingComponent);
             case com.tixon.timemanagement.R.layout.activity_create_task:
                 return com.tixon.timemanagement.databinding.ActivityCreateTaskBinding.bind(view, bindingComponent);
             case com.tixon.timemanagement.R.layout.fragment_eisenhower:
@@ -54,6 +56,10 @@ class DataBinderMapper {
             case -665403056:
                 if(tag.equals("layout/task_list_item_0"))
                     return com.tixon.timemanagement.R.layout.task_list_item;
+                break;
+            case 843927870:
+                if(tag.equals("layout/activity_task_description_0"))
+                    return com.tixon.timemanagement.R.layout.activity_task_description;
                 break;
             case -1274776594:
                 if(tag.equals("layout/activity_create_task_0"))

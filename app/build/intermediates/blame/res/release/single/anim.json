@@ -32,12 +32,16 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/anim/image_task_hide_scale.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/anim/rotate_fab.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/anim/rotate_fab.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
@@ -60,12 +64,12 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/anim/design_fab_out.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_fab_out.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/anim/design_fab_out.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_fab_out.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",

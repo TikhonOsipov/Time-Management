@@ -12,24 +12,24 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/drawable/background_container_orange.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_dialog_material_background_dark.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_textfield_search_material.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_edit_text_material.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/background_container_green.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/drawable/background_container_green.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/background_container_green.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/drawable/background_container_green.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_indicator_material.xml",
@@ -40,16 +40,16 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/side_nav_bar.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/drawable/side_nav_bar.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_full_material.xml",
@@ -68,12 +68,12 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_check_material.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/background_container_amber900.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/drawable/background_container_amber900.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_check_material.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/recycler_item_background.xml",
@@ -84,56 +84,60 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/drawable/background_container_red.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_text_cursor_material.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/button_background_ripple.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/drawable/button_background_ripple.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_switch_thumb_material.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/background_fragment_white.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/drawable/background_fragment_white.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/drawable/design_fab_background.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/drawable/design_fab_background.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/drawable/design_snackbar_background.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_dialog_material_background_light.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_dialog_material_background_light.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_dialog_material_background_light.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_dialog_material_background_light.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",

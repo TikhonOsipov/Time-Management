@@ -40,6 +40,8 @@
     <color name="colorAccent">#03a9f4</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorRipple">#5fa9a9f5</color>
+    <color name="colorTextLight">#e8eaf6</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
     <color name="design_fab_shadow_start_color">#44000000</color>
@@ -214,6 +216,8 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_create_corners_radius">3dp</dimen>
+    <dimen name="button_create_height">48dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -339,6 +343,7 @@
     <string name="taskTimeHint">Time</string>
     <string name="taskTitleHint">Title</string>
     <string name="timeFormat">%1$02d:%2$02d</string>
+    <string name="titleEmptyError">Enter title</string>
     <string name="title_activity_navigation">NavigationActivity</string>
     <string name="urgent">Urgent</string>
     <string name="urgentAndImportant">Important and urgent</string>

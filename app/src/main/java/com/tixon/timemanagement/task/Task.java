@@ -79,6 +79,12 @@ public class Task {
         }
     }
 
+    public void setDateAndTime(String date, String time) {
+        this.date = date;
+        this.time = time;
+        this.urgent = !(date.isEmpty() && time.isEmpty());
+    }
+
     /**
      *
      * @return время в виде числового массива
