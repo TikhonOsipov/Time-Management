@@ -38,8 +38,22 @@
 
     <!-- Navigation drawer -->
     <string name="app_menu">Меню приложения</string>
+    <string name="group_time_mgmt">Тайм-менеджмент</string>
     <string name="eisenhower_matrix">Матрица Эйзенхауэра</string>
     <string name="full_task_list">Полный список задач</string>
+    <string name="group_incomes_expenses">Учёт доходов и расходов</string>
+    <string name="incomes_expenses">Доходы и расходы</string>
+    <string name="incomes">Доходы</string>
+    <string name="expenses">Расходы</string>
+
+    <string name="settings">Настройки</string>
+    
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Settings -->
+    <string name="notificationsCategoryTitle">Уведомления</string>
+    <string name="notificationsSwitchTitle">Использование уведомлений</string>
+    <string name="notificationsSwitchedOffText">Выключено</string>
+    <string name="notificationsSwitchedOnText">Включено</string>
 </resources>

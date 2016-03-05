@@ -8,6 +8,10 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/activity_create_task.xml"
     },
     {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/fragment_incomes_expenses.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/fragment_incomes_expenses.xml"
+    },
+    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_part_chronometer.xml"
     },
@@ -44,12 +48,12 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_media_cancel_action.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/design_navigation_menu.xml",
@@ -60,12 +64,12 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/simple_item.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/simple_item.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/content_navigation.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/content_navigation.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/simple_item.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/simple_item.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
@@ -80,32 +84,32 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/activity_task_description.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/activity_task_description.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_search_view.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_item_layout.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/activity_task_description.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/activity_task_description.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/notification_template_media.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_media.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/activity_main.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/activity_main.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/notification_template_media.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
@@ -128,12 +132,12 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/notification_template_lines.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_lines.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/task_list_activity.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/task_list_activity.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/notification_template_lines.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_lines.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/notification_template_big_media.xml",
@@ -148,12 +152,12 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_menu_item.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/task_item.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/task_item.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/nav_header_navigation.xml",
@@ -200,16 +204,16 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/fragment_eisenhower.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/design_navigation_item_header.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_item_header.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/app_bar_navigation.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/app_bar_navigation.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/design_navigation_item_header.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_item_header.xml"
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/notification_media_action.xml",
@@ -224,16 +228,20 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/content_main.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/activity_navigation.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/activity_navigation.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/activity_navigation.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/activity_navigation.xml"
+    },
+    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/task_list_categorized_item.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/task_list_categorized_item.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/activity_settings.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/layout/activity_settings.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
@@ -244,24 +252,24 @@
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/design_navigation_item_separator.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_item_separator.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/design_layout_snackbar.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/design_navigation_item_separator.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/design_layout_snackbar_include.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
         "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/design_layout_snackbar_include.xml",
+        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_snackbar_include.xml"
     },
     {
         "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",

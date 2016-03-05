@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:2:1-47:12
 	xmlns:android
 		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -14,7 +14,7 @@ ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/Androi
 		INJECTED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml
 		INJECTED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:5:5-37:19
+ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:5:5-45:19
 MERGED from [com.android.support:appcompat-v7:23.2.0] /home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.2.0] /home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.2.0] /home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/AndroidManifest.xml:7:5-20
@@ -93,11 +93,29 @@ ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/Androi
 	android:name
 		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:32:27-74
 activity#com.tixon.timemanagement.activities.TaskDescriptionActivity
-ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:35:9-36:59
+ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:35:9-39:20
+	android:label
+		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:36:13-65
 	android:theme
-		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:36:13-56
+		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:38:13-56
 	android:name
 		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:35:19-69
+	android:launchMode
+		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:37:13-43
+activity#com.tixon.timemanagement.activities.SettingsActivity
+ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:40:9-42:59
+	android:label
+		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:41:13-45
+	android:theme
+		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:40:19-62
+receiver#com.tixon.timemanagement.receivers.TaskReceiver
+ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:44:9-86
+	android:process
+		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:44:58-83
+	android:name
+		ADDED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml:44:19-57
 uses-sdk
 INJECTED from /home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.2.0] /home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/AndroidManifest.xml:21:5-23:78

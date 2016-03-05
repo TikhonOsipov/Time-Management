@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notifications -->
+    <string name="categoryNotifications" translatable="false">categoryNotifications</string>
+    <string name="switchNotifications" translatable="false">switchNotifications</string>
+
+</resources>

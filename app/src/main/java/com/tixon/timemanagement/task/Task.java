@@ -1,7 +1,12 @@
 package com.tixon.timemanagement.task;
 
+import android.util.Log;
+
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
+
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Created by tikhon on 26.02.16
@@ -83,6 +88,19 @@ public class Task {
         this.date = date;
         this.time = time;
         this.urgent = !(date.isEmpty() && time.isEmpty());
+        Calendar c = Calendar.getInstance();
+        int[] dateArray, timeArray;
+        dateArray = getDateArray();
+        timeArray = getTimeArray();
+        Log.d("myLogs", "date = " + date);
+        c.set(Calendar.YEAR, dateArray[2]);
+        c.set(Calendar.MONTH, dateArray[1]-1);
+        c.set(Calendar.DAY_OF_MONTH, dateArray[0]);
+        c.set(Calendar.HOUR_OF_DAY, timeArray[0]);
+        c.set(Calendar.MINUTE, timeArray[1]);
+        setUnixTime(c.getTimeInMillis());
+        Log.d("myLogs", "date and time were set: " + getUnixTime());
+        Log.d("myLogs", "current system time = " + System.currentTimeMillis());
     }
 
     /**

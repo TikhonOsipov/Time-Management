@@ -13,6 +13,8 @@ class DataBinderMapper {
                 return com.tixon.timemanagement.databinding.FragmentTasksBinding.bind(view, bindingComponent);
             case com.tixon.timemanagement.R.layout.task_item:
                 return com.tixon.timemanagement.databinding.TaskItemBinding.bind(view, bindingComponent);
+            case com.tixon.timemanagement.R.layout.activity_settings:
+                return com.tixon.timemanagement.databinding.ActivitySettingsBinding.bind(view, bindingComponent);
             case com.tixon.timemanagement.R.layout.task_list_item:
                 return com.tixon.timemanagement.databinding.TaskListItemBinding.bind(view, bindingComponent);
             case com.tixon.timemanagement.R.layout.activity_task_description:
@@ -23,6 +25,8 @@ class DataBinderMapper {
                 return com.tixon.timemanagement.databinding.FragmentEisenhowerBinding.bind(view, bindingComponent);
             case com.tixon.timemanagement.R.layout.fragment_all_tasks:
                 return com.tixon.timemanagement.databinding.FragmentAllTasksBinding.bind(view, bindingComponent);
+            case com.tixon.timemanagement.R.layout.fragment_incomes_expenses:
+                return com.tixon.timemanagement.databinding.FragmentIncomesExpensesBinding.bind(view, bindingComponent);
             case com.tixon.timemanagement.R.layout.task_list_activity:
                 return com.tixon.timemanagement.databinding.TaskListActivityBinding.bind(view, bindingComponent);
             case com.tixon.timemanagement.R.layout.activity_main:
@@ -53,6 +57,10 @@ class DataBinderMapper {
                 if(tag.equals("layout/task_item_0"))
                     return com.tixon.timemanagement.R.layout.task_item;
                 break;
+            case -415786017:
+                if(tag.equals("layout/activity_settings_0"))
+                    return com.tixon.timemanagement.R.layout.activity_settings;
+                break;
             case -665403056:
                 if(tag.equals("layout/task_list_item_0"))
                     return com.tixon.timemanagement.R.layout.task_list_item;
@@ -72,6 +80,10 @@ class DataBinderMapper {
             case 1343596919:
                 if(tag.equals("layout/fragment_all_tasks_0"))
                     return com.tixon.timemanagement.R.layout.fragment_all_tasks;
+                break;
+            case 240546923:
+                if(tag.equals("layout/fragment_incomes_expenses_0"))
+                    return com.tixon.timemanagement.R.layout.fragment_incomes_expenses;
                 break;
             case 1406182476:
                 if(tag.equals("layout/task_list_activity_0"))

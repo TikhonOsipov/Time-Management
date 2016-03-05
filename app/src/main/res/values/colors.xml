@@ -18,4 +18,5 @@
 
     <color name="colorRipple">#5fa9a9f5</color>
     <color name="colorTextLight">#e8eaf6</color>
+    <color name="translucent">#3f000000</color>
 </resources>

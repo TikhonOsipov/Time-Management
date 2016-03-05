@@ -38,8 +38,22 @@
 
     <!-- Navigation drawer -->
     <string name="app_menu">Application menu</string>
+    <string name="group_time_mgmt">Time management</string>
     <string name="eisenhower_matrix">Eisenhower matrix</string>
     <string name="full_task_list">All tasks list</string>
+    <string name="group_incomes_expenses">List of incomes and expenses</string>
+    <string name="incomes_expenses">Incomes and expenses</string>
+    <string name="incomes">Incomes</string>
+    <string name="expenses">Expenses</string>
+
+    <string name="settings">Settings</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Settings -->
+    <string name="notificationsCategoryTitle">Notifications</string>
+    <string name="notificationsSwitchTitle">Use notifications</string>
+    <string name="notificationsSwitchedOffText">Disabled</string>
+    <string name="notificationsSwitchedOnText">Enabled</string>
 </resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:id="@+id/switchNotifications"
+        android:key="@string/switchNotifications"
+        android:title="@string/notificationsSwitchTitle"
+        android:defaultValue="true"
+        android:summaryOff="@string/notificationsSwitchedOffText"
+        android:summaryOn="@string/notificationsSwitchedOnText"
+        android:textOff="off"
+        android:textOn="on"/>
+    <PreferenceCategory
+        android:title="@string/notificationsCategoryTitle"
+        android:key="@string/categoryNotifications"
+        android:dependency="@string/switchNotifications">
+        <ListPreference android:title="Notify time"/>
+    </PreferenceCategory>
+</PreferenceScreen>

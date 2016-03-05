@@ -33,7 +33,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.TaskDescriptionActivity"
+            android:label="@string/taskDescriptionActivityTitle"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".activities.SettingsActivity"
+            android:label="@string/settings"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name=".receivers.TaskReceiver" android:process=":remote" />
     </application>
 
 </manifest>

@@ -9,11 +9,13 @@ public class TaskListActivityBinding extends android.databinding.ViewDataBinding
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.toolbarTaskList, 1);
-        sViewsWithIds.put(R.id.taskListRecyclerView, 2);
+        sViewsWithIds.put(R.id.taskListAppBarLayout, 1);
+        sViewsWithIds.put(R.id.toolbarTaskList, 2);
+        sViewsWithIds.put(R.id.taskListRecyclerView, 3);
     }
     // views
     private final android.support.design.widget.CoordinatorLayout mboundView0;
+    public final android.support.design.widget.AppBarLayout taskListAppBarLayout;
     public final android.support.v7.widget.RecyclerView taskListRecyclerView;
     public final android.support.v7.widget.Toolbar toolbarTaskList;
     // variables
@@ -22,11 +24,12 @@ public class TaskListActivityBinding extends android.databinding.ViewDataBinding
     
     public TaskListActivityBinding(android.databinding.DataBindingComponent bindingComponent, View root) {
         super(bindingComponent, root, 0);
-        final Object[] bindings = mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds);
+        final Object[] bindings = mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds);
         this.mboundView0 = (android.support.design.widget.CoordinatorLayout) bindings[0];
         this.mboundView0.setTag(null);
-        this.taskListRecyclerView = (android.support.v7.widget.RecyclerView) bindings[2];
-        this.toolbarTaskList = (android.support.v7.widget.Toolbar) bindings[1];
+        this.taskListAppBarLayout = (android.support.design.widget.AppBarLayout) bindings[1];
+        this.taskListRecyclerView = (android.support.v7.widget.RecyclerView) bindings[3];
+        this.toolbarTaskList = (android.support.v7.widget.Toolbar) bindings[2];
         setRootTag(root);
         invalidateAll();
     }

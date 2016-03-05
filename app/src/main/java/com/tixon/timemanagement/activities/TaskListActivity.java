@@ -1,16 +1,20 @@
 package com.tixon.timemanagement.activities;
 
+import android.annotation.TargetApi;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.TransitionDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
 
 import com.tixon.timemanagement.R;
 import com.tixon.timemanagement.adapters.TaskListActivityAdapter;
@@ -56,6 +60,15 @@ public class TaskListActivity extends AppCompatActivity {
         ColorDrawable indigo500 = new ColorDrawable(getResources().getColor(R.color.colorPrimary));
         ColorDrawable red800 = new ColorDrawable(getResources().getColor(R.color.red800));
 
+        //setTranslucentStatusBarLollipop(getWindow());
+
+        if(Build.VERSION.SDK_INT >= 21) {
+            /*Window window = this.getWindow();
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.setStatusBarColor(this.getResources().getColor(R.color.primary700));*/
+        }
+
         transition = new TransitionDrawable(new Drawable[] {indigo500, red800});
         reverseTransition = new TransitionDrawable(new Drawable[] {red800, indigo500});
         binding.toolbarTaskList.setBackground(transition);
@@ -67,6 +80,14 @@ public class TaskListActivity extends AppCompatActivity {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    private static void setTranslucentStatusBarLollipop(Window window) {
+        window.setStatusBarColor(
+                window.getContext()
+                        .getResources()
+                        .getColor(R.color.translucent));
     }
 
     @Override

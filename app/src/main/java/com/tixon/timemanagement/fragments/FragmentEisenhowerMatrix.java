@@ -17,8 +17,10 @@ import com.tixon.timemanagement.R;
 import com.tixon.timemanagement.activities.CreateTaskActivity;
 import com.tixon.timemanagement.databinding.FragmentEisenhowerBinding;
 
+import java.lang.reflect.Field;
+
 /**
- * Created by tikhon on 01.03.16.
+ * Created by tikhon on 01.03.16
  */
 public class FragmentEisenhowerMatrix extends Fragment {
     public static final int REQUEST_CODE_CREATE_TASK = 1;
@@ -97,6 +99,22 @@ public class FragmentEisenhowerMatrix extends Fragment {
         }
         if(!urgent && !important) {
             fragmentNotUrgentAndNotImportant.showTaskAdded();
+        }
+    }
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
+
+        try {
+            Field childFragmentManager = Fragment.class.getDeclaredField("mChildFragmentManager");
+            childFragmentManager.setAccessible(true);
+            childFragmentManager.set(this, null);
+
+        } catch (NoSuchFieldException e) {
+            throw new RuntimeException(e);
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException(e);
         }
     }
 }

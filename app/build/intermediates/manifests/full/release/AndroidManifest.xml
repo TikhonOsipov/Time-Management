@@ -41,7 +41,18 @@
         </activity>
         <activity
             android:name="com.tixon.timemanagement.activities.TaskDescriptionActivity"
+            android:label="@string/taskDescriptionActivityTitle"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.tixon.timemanagement.activities.SettingsActivity"
+            android:label="@string/settings"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name="com.tixon.timemanagement.receivers.TaskReceiver"
+            android:process=":remote" />
     </application>
 
 </manifest>

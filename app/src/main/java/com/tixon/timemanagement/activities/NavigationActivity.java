@@ -1,7 +1,10 @@
 package com.tixon.timemanagement.activities;
 
 import android.app.FragmentManager;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -17,13 +20,17 @@ import android.view.MenuItem;
 import com.tixon.timemanagement.R;
 import com.tixon.timemanagement.fragments.FragmentAllTasks;
 import com.tixon.timemanagement.fragments.FragmentEisenhowerMatrix;
+import com.tixon.timemanagement.fragments.FragmentIncomesExpenses;
 
 public class NavigationActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener,
+        SharedPreferences.OnSharedPreferenceChangeListener {
 
     FragmentManager fm;
     FragmentEisenhowerMatrix eisenhowerMatrix;
     FragmentAllTasks fragmentAllTasks;
+    FragmentIncomesExpenses fragmentIncomes, fragmentExpenses, fragmentIncomesExpenses;
+    SharedPreferences sPref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,13 +48,19 @@ public class NavigationActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        navigationView.setCheckedItem(R.id.eisenhowerMatrix);
+        //navigationView.setCheckedItem(R.id.eisenhowerMatrix);
 
         fm = getFragmentManager();
         eisenhowerMatrix = FragmentEisenhowerMatrix.newInstance();
         fragmentAllTasks = FragmentAllTasks.newInstance();
+        fragmentIncomes = FragmentIncomesExpenses.newInstance(FragmentIncomesExpenses.INCOMES);
+        fragmentExpenses = FragmentIncomesExpenses.newInstance(FragmentIncomesExpenses.EXPENSES);
+        fragmentIncomesExpenses = FragmentIncomesExpenses.newInstance(FragmentIncomesExpenses.INCOMES_AND_EXPENSES);
         //открытие главного фрагмента
         fm.beginTransaction().replace(R.id.navigationContainer, eisenhowerMatrix).commit();
+
+        sPref = PreferenceManager.getDefaultSharedPreferences(NavigationActivity.this);
+        sPref.registerOnSharedPreferenceChangeListener(NavigationActivity.this);
     }
 
     @Override
@@ -60,13 +73,6 @@ public class NavigationActivity extends AppCompatActivity
         }
     }
 
-    /*@Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.navigation, menu);
-        return true;
-    }*/
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         return super.onOptionsItemSelected(item);
@@ -75,8 +81,6 @@ public class NavigationActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-
         switch (item.getItemId()) {
             case R.id.eisenhowerMatrix:
                 fm.beginTransaction().replace(R.id.navigationContainer, eisenhowerMatrix).commit();
@@ -84,11 +88,29 @@ public class NavigationActivity extends AppCompatActivity
             case R.id.allTasks:
                 fm.beginTransaction().replace(R.id.navigationContainer, fragmentAllTasks).commit();
                 break;
+            /*case R.id.incomes:
+                fm.beginTransaction().replace(R.id.navigationContainer, fragmentIncomes).commit();
+                break;
+            case R.id.expenses:
+                fm.beginTransaction().replace(R.id.navigationContainer, fragmentExpenses).commit();
+                break;
+            case R.id.incomesAndExpenses:
+                fm.beginTransaction().replace(R.id.navigationContainer, fragmentIncomesExpenses)
+                        .commit();
+                break;*/
+            case R.id.settings:
+                startActivity(new Intent(NavigationActivity.this, SettingsActivity.class));
+                break;
             default: break;
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
+
     }
 }

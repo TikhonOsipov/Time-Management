@@ -26,8 +26,13 @@
     <string name="dateAtTime"> в </string>
     <string name="dateFormat">%1$02d.%2$02d.%3$04d</string>
     <string name="eisenhower_matrix">Матрица Эйзенхауэра</string>
+    <string name="expenses">Расходы</string>
     <string name="full_task_list">Полный список задач</string>
+    <string name="group_incomes_expenses">Учёт доходов и расходов</string>
+    <string name="group_time_mgmt">Тайм-менеджмент</string>
     <string name="important">Важно</string>
+    <string name="incomes">Доходы</string>
+    <string name="incomes_expenses">Доходы и расходы</string>
     <string name="menu_delete">Удалить</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -35,7 +40,12 @@
     <string name="notUrgent">Не срочно</string>
     <string name="notUrgentAndImportant">Важно, не срочно</string>
     <string name="notUrgentAndNotImportant">Долгий ящик</string>
+    <string name="notificationsCategoryTitle">Уведомления</string>
+    <string name="notificationsSwitchTitle">Использование уведомлений</string>
+    <string name="notificationsSwitchedOffText">Выключено</string>
+    <string name="notificationsSwitchedOnText">Включено</string>
     <string name="selected_number">Выбрано: %1$s</string>
+    <string name="settings">Настройки</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
     <string name="taskCreateButtonText">Создать</string>
     <string name="taskDateHint">Дата</string>

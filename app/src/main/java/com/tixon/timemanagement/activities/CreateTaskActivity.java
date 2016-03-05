@@ -1,11 +1,14 @@
 package com.tixon.timemanagement.activities;
 
+import android.app.AlarmManager;
 import android.app.DatePickerDialog;
+import android.app.PendingIntent;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -20,7 +23,9 @@ import com.tixon.timemanagement.Constants;
 import com.tixon.timemanagement.R;
 import com.tixon.timemanagement.database.HelperFactory;
 import com.tixon.timemanagement.databinding.ActivityCreateTaskBinding;
+import com.tixon.timemanagement.receivers.TaskReceiver;
 import com.tixon.timemanagement.task.Task;
+import com.tixon.timemanagement.utils.NotificationUtils;
 
 import java.sql.SQLException;
 import java.util.Calendar;
@@ -31,6 +36,7 @@ import java.util.Calendar;
 public class CreateTaskActivity extends AppCompatActivity {
     private ActivityCreateTaskBinding binding;
     private Calendar calendar;
+    SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,13 +47,14 @@ public class CreateTaskActivity extends AppCompatActivity {
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
         readData();
         calendar = Calendar.getInstance();
+        calendar.setTimeInMillis(System.currentTimeMillis());
+
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(CreateTaskActivity.this);
 
         binding.editTextDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d("myLogs", "date clicked");
-                //hideKeyboard(v);
-                calendar.setTimeInMillis(System.currentTimeMillis());
                 DatePickerDialog datePickerDialog;
                 String dateFromEt = binding.editTextDate.getText().toString();
                 if(!dateFromEt.isEmpty()) {
@@ -72,11 +79,10 @@ public class CreateTaskActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d("myLogs", "time clicked");
-                //hideKeyboard(v);
                 calendar.setTimeInMillis(System.currentTimeMillis());
                 TimePickerDialog timePickerDialog;
                 String timeFromEt = binding.editTextTime.getText().toString();
-                if(!timeFromEt.isEmpty()) {
+                if (!timeFromEt.isEmpty()) {
                     int[] time = getTime(timeFromEt);
                     timePickerDialog = new TimePickerDialog(CreateTaskActivity.this,
                             timeSetListener, time[0], time[1], true);
@@ -89,31 +95,12 @@ public class CreateTaskActivity extends AppCompatActivity {
             }
         });
 
-        binding.editTextTitle.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                /*try {
-                    binding.editTextTitle.getBackground().mutate()
-                            .setTint(getResources().getColor(R.color.colorAccent));
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }*/
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
-
         binding.buttonCreateTask.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                boolean isUrgent = !(binding.editTextDate.getText().toString().isEmpty() &&
+                                    binding.editTextTime.getText().toString().isEmpty());
 
                 if(binding.editTextTitle.getText().toString().isEmpty()) {
                     binding.editTextTitle.setError(getString(R.string.titleEmptyError));
@@ -125,15 +112,30 @@ public class CreateTaskActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }*/
                 } else {
+                    String date = binding.editTextDate.getText().toString();
+                    String time = binding.editTextTime.getText().toString();
+
+                    if(isUrgent) {
+                        if(date.isEmpty()) {
+                            date = getString(R.string.dateFormat,
+                                    calendar.get(Calendar.DAY_OF_MONTH),
+                                    calendar.get(Calendar.MONTH) +1,
+                                    calendar.get(Calendar.YEAR));
+                        }
+
+                        if(time.isEmpty()) {
+                            calendar.add(Calendar.HOUR_OF_DAY, 2);
+                            time = getString(R.string.timeFormat,
+                                    calendar.get(Calendar.HOUR_OF_DAY),
+                                    calendar.get(Calendar.MINUTE));
+                        }
+                    }
                     hideKeyboard(v);
 
                     Task task = new Task();
 
                     task.setImportant(binding.checkBoxIsImportantTask.isChecked());
-                    //task.setDate(binding.editTextDate.getText().toString());
-                    //task.setTime(binding.editTextTime.getText().toString());
-                    task.setDateAndTime(binding.editTextDate.getText().toString(),
-                            binding.editTextTime.getText().toString());
+                    task.setDateAndTime(date, time);
                     task.setTitle(binding.editTextTitle.getText().toString());
                     task.setDescription(binding.editTextDescription.getText().toString());
 
@@ -143,11 +145,21 @@ public class CreateTaskActivity extends AppCompatActivity {
 
                     try {
                         HelperFactory.getDatabaseHelper().getTaskDAO().create(task);
-                        //todo анимация в нужный фрагмент
+                        //Анимация в нужном фрагменте
                         setResult(RESULT_OK, new Intent()
                                 .putExtra(Constants.RESULT_EXTRA_URGENT, task.isUrgent())
                                 .putExtra(Constants.RESULT_EXTRA_IMPORTANT, task.isImportant()));
                         clearData();
+
+                        if(isUrgent) {
+                            //Создание уведомления
+                            AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+                            Intent notifyIntent = new Intent(CreateTaskActivity.this, TaskReceiver.class);
+                            notifyIntent.putExtra(Constants.EXTRA_ID, task.getId());
+                            PendingIntent pendingIntent = PendingIntent
+                                    .getBroadcast(CreateTaskActivity.this, 1, notifyIntent, 0);
+                            alarmManager.set(AlarmManager.RTC_WAKEUP, task.getUnixTime(), pendingIntent);
+                        }
                         finish();
                     } catch (SQLException e) {
                         Log.e("myLogs", "error creating new task: " + e.toString());
@@ -172,12 +184,14 @@ public class CreateTaskActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        //sharedPreferences.registerOnSharedPreferenceChangeListener(this);
         readData();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
+        //sharedPreferences.unregisterOnSharedPreferenceChangeListener(this);
         saveData();
     }
 
@@ -192,6 +206,9 @@ public class CreateTaskActivity extends AppCompatActivity {
         @Override
         public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
             binding.editTextDate.setText(getString(R.string.dateFormat, dayOfMonth, monthOfYear+1, year));
+            calendar.set(Calendar.YEAR, year);
+            calendar.set(Calendar.MONTH, monthOfYear);
+            calendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
         }
     };
 
@@ -199,6 +216,8 @@ public class CreateTaskActivity extends AppCompatActivity {
         @Override
         public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
             binding.editTextTime.setText(getString(R.string.timeFormat, hourOfDay, minute));
+            calendar.set(Calendar.HOUR_OF_DAY, hourOfDay);
+            calendar.set(Calendar.MINUTE, minute);
         }
     };
 
