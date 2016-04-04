@@ -81,8 +81,8 @@ public class TaskItemBinding extends android.databinding.ViewDataBinding {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        java.lang.String titleTask = null;
         com.tixon.timemanagement.task.Task task = mTask;
+        java.lang.String titleTask = null;
     
         if ((dirtyFlags & 0x3L) != 0) {
             // read task~

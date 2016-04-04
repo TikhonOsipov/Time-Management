@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <import type="android.view.View"/>
+        <import type="com.tixon.timemanagement.incomes_expenses.Money"/>
+
+        <variable
+            name="money"
+            type="Money" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                tools:text="something cool"
+                android:id="@+id/moneyName"
+                android:text="@{money.name}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                tools:text="16 000"
+                android:id="@+id/moneyAmount"
+                android:text="@{money.amount}"
+                android:textSize="24sp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                tools:text="04.04.2016 16:00"
+                android:id="@+id/moneyTime"
+                android:text="@{money.time}"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            tools:visibility="visible"
+            android:id="@+id/tag_income"
+            android:layout_alignParentLeft="true"
+            android:layout_above="@+id/money_divider"
+            android:background="@drawable/tag_background_income"
+            android:visibility="@{money.status == Money.INCOME ? View.VISIBLE : View.GONE}"
+            android:layout_width="12dp"
+            android:layout_height="match_parent" />
+
+        <View
+            tools:visibility="gone"
+            android:id="@+id/tag_expense"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/money_divider"
+            android:background="@drawable/tag_background_expense"
+            android:visibility="@{money.status == Money.EXPENSE ? View.VISIBLE : View.GONE}"
+            android:layout_width="12dp"
+            android:layout_height="match_parent" />
+
+        <View
+            tools:visibility="gone"
+            android:id="@+id/tag_accumulation"
+            android:layout_alignParentLeft="true"
+            android:layout_above="@+id/money_divider"
+            android:background="@drawable/tag_background_accumulation"
+            android:visibility="@{money.status == Money.ACCUMULATION ? View.VISIBLE : View.GONE}"
+            android:layout_width="12dp"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/money_divider"
+            android:background="@color/divider_color"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+    </RelativeLayout>
+</layout>

@@ -2,5 +2,5 @@ package android.databinding.layouts;
 
 import android.databinding.BindingBuildInfo;
 
-@BindingBuildInfo(buildId="a8be26f3-0dc8-4a40-bb05-bd3098cbad66", modulePackage="com.tixon.timemanagement", sdkRoot="/home/tikhon/Android/SDK",layoutInfoDir="/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/data-binding-info/release",exportClassListTo="",isLibrary=false,minSdk=17,enableDebugLogs=false,printEncodedError=true)
+@BindingBuildInfo(buildId="505ec341-cde8-47c1-be3d-8f70b8e454ad", modulePackage="com.tixon.timemanagement", sdkRoot="D:\\Android\\sdk",layoutInfoDir="D:\\Android\\Projects\\Time-Management\\app\\build\\intermediates\\data-binding-info\\release",exportClassListTo="",isLibrary=false,minSdk=17,enableDebugLogs=false,printEncodedError=true)
 public class DataBindingInfo {}

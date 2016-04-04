@@ -90,19 +90,19 @@ public class TaskListCategorizedItemBinding extends android.databinding.ViewData
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        java.lang.String descriptionTask = null;
-        java.lang.String titleTask = null;
         com.tixon.timemanagement.task.Task task = mTask;
+        java.lang.String titleTask = null;
+        java.lang.String descriptionTask = null;
     
         if ((dirtyFlags & 0x3L) != 0) {
             // read task~
             task = task;
         
             if (task != null) {
-                // read description~.~task~
-                descriptionTask = task.getDescription();
                 // read title~.~task~
                 titleTask = task.getTitle();
+                // read description~.~task~
+                descriptionTask = task.getDescription();
             }
         }
         // batch finished

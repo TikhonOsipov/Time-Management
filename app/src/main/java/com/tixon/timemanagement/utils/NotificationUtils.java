@@ -3,13 +3,11 @@ package com.tixon.timemanagement.utils;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
 import com.tixon.timemanagement.Constants;
 import com.tixon.timemanagement.R;
-import com.tixon.timemanagement.activities.NavigationActivity;
 import com.tixon.timemanagement.activities.TaskDescriptionActivity;
 import com.tixon.timemanagement.task.Task;
 
@@ -47,7 +45,7 @@ public class NotificationUtils {
         notificationIntent.putExtra(Constants.EXTRA_ID, task.getId());
 
         Notification.Builder nb = new Notification.Builder(ctx)
-                .setSmallIcon(R.drawable.ic_event_note_white_24dp)
+                //.setSmallIcon(R.drawable.ic_event_note_white_24dp)
                 .setAutoCancel(true)
                 .setTicker(task.getTitle())
                 .setContentText(task.getDescription())

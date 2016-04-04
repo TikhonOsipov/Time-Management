@@ -99,28 +99,28 @@ public class ActivityCreateTaskBinding extends android.databinding.ViewDataBindi
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        java.lang.String timeTask = null;
-        java.lang.String dateTask = null;
-        boolean importantTask = false;
-        java.lang.String descriptionTask = null;
-        java.lang.String titleTask = null;
         com.tixon.timemanagement.task.Task task = mTask;
+        java.lang.String titleTask = null;
+        java.lang.String timeTask = null;
+        java.lang.String descriptionTask = null;
+        boolean importantTask = false;
+        java.lang.String dateTask = null;
     
         if ((dirtyFlags & 0x3L) != 0) {
             // read task~
             task = task;
         
             if (task != null) {
-                // read time~.~task~
-                timeTask = task.getTime();
-                // read date~.~task~
-                dateTask = task.getDate();
-                // read important~.~task~
-                importantTask = task.isImportant();
-                // read description~.~task~
-                descriptionTask = task.getDescription();
                 // read title~.~task~
                 titleTask = task.getTitle();
+                // read time~.~task~
+                timeTask = task.getTime();
+                // read description~.~task~
+                descriptionTask = task.getDescription();
+                // read important~.~task~
+                importantTask = task.isImportant();
+                // read date~.~task~
+                dateTask = task.getDate();
             }
         }
         // batch finished

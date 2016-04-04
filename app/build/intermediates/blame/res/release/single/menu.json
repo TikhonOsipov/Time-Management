@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/menu/activity_navigation_drawer.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/menu/activity_navigation_drawer.xml"
+        "merged": "D:\\Android\\Projects\\Time-Management\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_navigation_drawer.xml",
+        "source": "D:\\Android\\Projects\\Time-Management\\app\\src\\main\\res\\menu\\activity_navigation_drawer.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/menu/menu_main.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/menu/menu_main.xml"
+        "merged": "D:\\Android\\Projects\\Time-Management\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_main.xml",
+        "source": "D:\\Android\\Projects\\Time-Management\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/menu/menu_delete_items.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/menu/menu_delete_items.xml"
+        "merged": "D:\\Android\\Projects\\Time-Management\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_delete_items.xml",
+        "source": "D:\\Android\\Projects\\Time-Management\\app\\src\\main\\res\\menu\\menu_delete_items.xml"
     },
     {
-        "merged": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/build/intermediates/res/merged/release/menu/navigation.xml",
-        "source": "/home/tikhon/AndroidStudioProjects/TimeManagement/app/src/main/res/menu/navigation.xml"
+        "merged": "D:\\Android\\Projects\\Time-Management\\app\\build\\intermediates\\res\\merged\\release\\menu\\navigation.xml",
+        "source": "D:\\Android\\Projects\\Time-Management\\app\\src\\main\\res\\menu\\navigation.xml"
     }
 ]
